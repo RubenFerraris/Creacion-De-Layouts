@@ -1,0 +1,60 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendario</title>
+  <link rel="stylesheet" href="./content/calendary.css">
+  <script src="./content/js/calendary.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calendar">
+      <div class="calendar-header">
+        <span class="month-picker" id="month-picker"> </span>
+        <div class="year-picker" id="year-picker">
+          <span class="year-change" id="pre-year">
+            <pre><</pre>
+          </span>
+          <span id="year"></span>
+          <span class="year-change" id="next-year">
+            <pre>></pre>
+          </span>
+        </div>
+      </div> 
+      <div class="calendar-body">
+        <div class="calendar-week-days">
+        </div>
+        <div class="calendar-days">
+        </div>
+      </div>
+      <div class="calendar-footer">
+      </div>
+      <div class="date-time-value">
+      </div>
+      <div class="month-list"></div>
+    </div>
+  </div>
+
+  <section class="pastillitas">
+    <div class="titulo">Hoy</div>
+    <article class="pastillita"><div class="img"></div>
+      <div class="texto">
+        <div class="namepastilla">toma la pastilla viejo</div>
+        <div class="descpastilla">Nose</div>
+      </div>
+  </article>
+  <input type="range" value=0>
+  </section>
+  <nav class="flex">
+    <a href="index.html" class="flex"><i class="fa-solid fa-house"></i></a>
+    <a href="calendario.html" class="flex "><i class="fa-solid fa-calendar-days"></i></a>
+    <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+    <a href="#" class="flex"><i class="fa-solid fa-chart-simple"></i></a>
+    <a href="perfil.html" class="flex "><i class="fa-solid fa-user"></i></a>
+  </nav>
+</body>
+
+</html>
