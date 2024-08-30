@@ -66,8 +66,8 @@ header {
   
 
   .tarjeta {
-    height: 50%;
-    width: 90%;
+    height: 7.5rem;
+    width: 25rem;
     display: flex;
     align-items: center;
     background-color: rgb(225, 225, 226);
@@ -126,7 +126,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: rgb(38, 189, 248);
   text-decoration: none;
   margin-bottom: 3rem;
   border-radius: 4rem;
@@ -138,10 +138,7 @@ nav {
   display: flex;
   overflow-x: scroll;
   padding: 1rem;
-  .titulo {
-    font-weight: 700;
-    font-size: 2rem;
-  }
+  
   .pastillita {
     height: 7.5rem;
     width: 30rem;
@@ -184,6 +181,7 @@ nav {
 .titulo {
   font-weight: 700;
   font-size: 2rem;
+  padding: 1rem;
 }
 @media (orientation=portrait) {  
   header {
@@ -264,10 +262,6 @@ nav {
     flex-direction: column;
     overflow-x: scroll;
     padding: 1rem;
-    .titulo {
-      font-weight: 700;
-      font-size: 2rem;
-    }
     .pastillita {
       height: 7.5rem;
       width: 25rem;
