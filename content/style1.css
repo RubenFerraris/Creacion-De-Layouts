@@ -2,6 +2,7 @@
 @import url(colores.css);
 @import url(fawesome-all.css);
 
+
 * {
     margin: 0;
     padding: 0;
@@ -10,24 +11,7 @@
     text-decoration: none;
 }
 
-:root {
-    --verde: rgb(6, 218, 157);
-    --gris: rgb(128, 126, 126);
-}
 
-a {
-    text-decoration: none;
-    color: rgba(117, 116, 116, 0.726);
-    cursor: pointer;
-}
-
-a:hover {
-    color: black;
-}
-
-a:active {
-    text-shadow: 0 0 10px black;
-}
 
 
 body {

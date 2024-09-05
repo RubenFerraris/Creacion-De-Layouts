@@ -1,60 +1,48 @@
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Calendario</title>
-  <link rel="stylesheet" href="./content/calendary.css">
-  <script src="./content/js/calendary.js" defer></script>
-</head>
-
-<body>
-  <div class="container">
-    <div class="calendar">
-      <div class="calendar-header">
-        <span class="month-picker" id="month-picker"> </span>
-        <div class="year-picker" id="year-picker">
-          <span class="year-change" id="pre-year">
-            <pre><</pre>
-          </span>
-          <span id="year"></span>
-          <span class="year-change" id="next-year">
-            <pre>></pre>
-          </span>
-        </div>
-      </div> 
-      <div class="calendar-body">
-        <div class="calendar-week-days">
-        </div>
-        <div class="calendar-days">
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calendario</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./content/calendary.css" />
+  </head>
+  <body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
+    <div class="card">
+      <div class="calendar-toolbar">
+        <button class="prev month-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="current-month"></div>
+        <button class="next month-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
       </div>
-      <div class="calendar-footer">
+      <div class="calendar">
+        <div class="weekdays">
+          <div class="weekday-name">D</div>
+          <div class="weekday-name">L</div>
+          <div class="weekday-name">M</div>
+          <div class="weekday-name">M</div>
+          <div class="weekday-name">J</div>
+          <div class="weekday-name">V</div>
+          <div class="weekday-name">S</div>
+        </div>
+        <div class="calendar-days"></div>
       </div>
-      <div class="date-time-value">
+      <div class="goto-buttons">
+        <button type="button" class="btn prev-year">Año anterior</button>
+        <button type="button" class="btn today">Hoy</button>
+        <button type="button" class="btn next-year">Siguiente año</button>
       </div>
-      <div class="month-list"></div>
     </div>
-  </div>
-
-  <section class="pastillitas">
-    <div class="titulo">Hoy</div>
-    <article class="pastillita"><div class="img"></div>
-      <div class="texto">
-        <div class="namepastilla">toma la pastilla viejo</div>
-        <div class="descpastilla">Nose</div>
-      </div>
-  </article>
-  <input type="range" value=0>
-  </section>
-  <nav class="flex">
-    <a href="index.html" class="flex"><i class="fa-solid fa-house"></i></a>
-    <a href="calendario.html" class="flex "><i class="fa-solid fa-calendar-days"></i></a>
-    <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
-    <a href="#" class="flex"><i class="fa-solid fa-chart-simple"></i></a>
-    <a href="perfil.html" class="flex "><i class="fa-solid fa-user"></i></a>
-  </nav>
-</body>
-
+    <nav class="flex">
+      <a href="index.html" class="flex"><i class="fa-solid fa-house"></i></a>
+      <a href="calendario.html" class="flex "><i class="fa-solid fa-calendar-days"></i></a>
+      <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+      <a href="grafico.html" class="flex"><i class="fa-solid fa-chart-simple"></i></a>
+      <a href="perfil.html" class="flex "><i class="fa-solid fa-user"></i></a>
+    </nav>
+	<script src="./content/js/calendary.js"></script>
+  </body>
 </html>
