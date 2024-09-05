@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Gráfico</title>
     <link rel="stylesheet" href="./content/grafico.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./content/Nav-futer.css">
 </head>
+
 <body>
-    grafico
+    <h1>Generador de Gráficos</h1>
+    <div class="left">
+        <select name="" id="tipo">
+            <option value="circular">
+                Gráfico Circular
+            </option>
+            <option value="columna">
+                Gráfico de Columnas
+            </option>
+        </select>
+        <input type="text" placeholder="Título del Gráfico" id="titulo">
+        <div class="datos" id="datos">
+            <div class="dato">
+                <input type="text" placeholder="Leyenda 1" class="serie">
+                <input type="text" placeholder="Valor 1" class="valor">
+            </div>
+            <div class="dato">
+                <input type="text" placeholder="Leyenda 2" class="serie">
+                <input type="text" placeholder="Valor 2" class="valor">
+            </div>
+        </div>
+        <button onclick="agregarDato()" class="agregar"> + </button>
+        <button onclick="cargarGrafico()" class="crear-grafico">Crear Gráfico</button>
+    </div>
+    <div class="right">
+        <div id="piechart"></div>
+    </div>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./content/js/grafico.js"></script>
     <nav class="flex">
         <a href="index.html" class="flex"><i class="fa-solid fa-house"></i></a>
         <a href="calendario.html" class="flex "><i class="fa-solid fa-calendar-days"></i></a>
         <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
-        <a href="#" class="flex"><i class="fa-solid fa-chart-simple"></i></a>
+        <a href="grafico.html" class="flex"><i class="fa-solid fa-chart-simple"></i></a>
         <a href="perfil.html" class="flex "><i class="fa-solid fa-user"></i></a>
       </nav>
 </body>
+
 </html>
