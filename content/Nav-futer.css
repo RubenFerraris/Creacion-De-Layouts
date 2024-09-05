@@ -43,3 +43,10 @@ nav {
     margin-bottom: 3rem;
     border-radius: 4rem;
   }  
+  .plus1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 189, 248);
+    text-decoration: none;
+  }  

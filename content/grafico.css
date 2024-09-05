@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: rgb(237, 237, 238);
 }
 
 .left {
@@ -31,7 +31,7 @@ body {
 .input {
     display: inline-block;
     border: none;
-    border-bottom: 1px solid #88d498;
+    border-bottom: 1px solid rgb(38, 189, 248);
     margin-bottom: 10px;
     width: 100%;
     padding: 5px;
@@ -55,7 +55,7 @@ body {
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: #18936f;
+    background-color: rgb(38, 189, 248);
     border: none;
     color: #fff;
     border-radius: 50%;
@@ -66,7 +66,7 @@ body {
 
 .crear-grafico {
     float: right;
-    background-color: #18936f;
+    background-color: rgb(38, 189, 248);
     border: none;
     padding: 10px;
     color: #fff;

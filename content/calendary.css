@@ -10,8 +10,7 @@
 
 body {
   height: 100vh;
-  background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-color: rgb(237, 237, 238);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +21,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 .card {
   width: 316px;
   height: fit-content;
-  background-color: #FFFFFF;
+  background-color: rgb(221, 167, 158);
   border-radius: 15px;
   box-shadow: 0px 0px 10px #efefef;
 }
@@ -84,7 +83,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 }
 
 .current-day {
-  background-color: rgb(112, 71, 235);
+  background-color: rgb(38, 189, 248);
   color: #f8f7fa;
   border-radius: 15px;
   font-weight: 700;
@@ -102,17 +101,17 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 .btn:hover {
   border-radius: 15px;
   background-color: #f8f7fa;
-  color: rgb(112, 71, 235);
+  color: rgb(38, 189, 248);
   transition: 0.1s;
   cursor: pointer;
-  box-shadow: inset 0px 0px 0px 1.5px rgb(112, 71, 235);
+  box-shadow: inset 0px 0px 0px 1.5px rgb(38, 189, 248);
 }
 
 .calendar-toolbar > [class$="month-btn"]:focus,
 .month-day:focus,
 .btn:focus {
   border-radius: 15px;
-  background-color: rgb(112, 71, 235);
+  background-color: rgb(38, 189, 248);
   color: #f8f7fa;
 }
 

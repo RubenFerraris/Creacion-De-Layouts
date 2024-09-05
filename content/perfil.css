@@ -43,7 +43,7 @@ body{
   }
   
   .logout_btn:hover{
-    background: #e36414;
+    background: rgb(38, 189, 248);
   }
   
   .sidebar{
@@ -94,7 +94,7 @@ body{
   }
   
   .sidebar a:hover{
-    background: #e36414;
+    background: rgb(38, 189, 248);
   }
   
   .sidebar i{
@@ -114,7 +114,7 @@ body{
   }
   
   label #sidebar_btn:hover{
-    color: #e36414;
+    color: rgb(38, 189, 248);
   }
   
   #check:checked ~ .sidebar{
@@ -167,7 +167,6 @@ body{
     opacity: 0.8;
   }
   
-  /* Responsive CSS */
   
   @media screen and (max-width: 780px){
     .sidebar{
@@ -219,7 +218,7 @@ body{
     }
   
     .nav_bar .nav_btn:hover{
-      color: #e36414;
+      color: rgb(38, 189, 248);
     }
   
     .mobile_nav_items{
@@ -240,7 +239,7 @@ body{
     }
   
     .mobile_nav_items a:hover{
-      background: #e36414;
+      background: rgb(38, 189, 248);
     }
   
     .mobile_nav_items i{
