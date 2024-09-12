@@ -234,20 +234,7 @@ header.restaurante {
     overflow: hidden;
     }
 
-    .calificacion {
-      position: absolute;
-      display: grid;
-      place-items: center;
-      height: 45px;
-      width: 55px;
-      background-color: rgb(6, 218, 157);
-      border-radius: 15px 0;
-      right: 35px;
-      bottom: -15px;
-      color: #ffffff;
-      font: 1.3em sans-serif;
-      box-shadow: 0px 30px 35px -10px rgba(0, 0, 0, 0.212);
-    }
+    
   }
 
   .informacion {
@@ -270,7 +257,7 @@ header.restaurante {
   display: flex;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1280px) {
   body.index{
     background-image: url(../img/fondo.jpg);
     }
@@ -292,19 +279,5 @@ header.restaurante {
   
 }
 @media screen and (min-width: 500px) {
- 
-  .horarios{
-    display: flex;
-    flex-direction: column;
-  }
-  .horario {
-    height: 10rem;
-    width: 25rem;
-    display: flex;
-    
-    padding: 1rem;
-    background-color: rgb(179, 136, 136);
-    border-radius: 2rem;
-    margin: 1rem;
-  }
+
 }
