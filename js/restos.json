@@ -10,9 +10,6 @@
       
         "open": "09:00",
         "close": "11:00",
-        "stars": 1,
-        "rating": 4.4,
-        "price": 3,
         "distance": "1 bulan",
         "menu": [
             {
@@ -38,10 +35,8 @@
       
         "open": "∞",
         "close": "∞",
-        "stars": 3,
-        "rating": 4.2,
-        "price": 1,
-        "distance": "4km",
+      
+        "distance": "1 bulan",
         "menu": [
             {
                 
@@ -66,10 +61,7 @@
       
         "open": "00:00",
         "close": "00:01",
-        "stars": 4,
-        "rating": 2.1,
-        "price": 2,
-        "distance": "3km",
+        "distance": "1 bulan",
         "menu": [
             {
                 
@@ -94,10 +86,7 @@
     
         "open": "12:00",
         "close": "19:00",
-        "stars": 4,
-        "rating": 3.4,
-        "price": 3,
-        "distance": "3km",
+        "distance": "1 bulan",
         "menu": [
             {
                 
@@ -121,10 +110,7 @@
         "location": "Alivia dolor intenso y fiebre alta.",
         "open": "9:00",
         "close": "11:00",
-        "stars": 4,
-        "rating": 1.4,
-        "price": 3,
-        "distance": "3km",
+        "distance": "1 bulan",
         "menu":[
             {
                 
