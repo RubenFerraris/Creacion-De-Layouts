@@ -133,7 +133,7 @@ main.index {
     height: 160px;
     width: 100%;
     border-radius: 10px;
-    box-shadow: 10px 5px 20px -10px rgba(0, 0, 0, 0.418);
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.418);
 
     & .img {
       display: grid;
@@ -143,6 +143,7 @@ main.index {
       width: 42%;
       border-radius: 15px 0 0 15px;
       position: relative;
+      box-shadow: 10px 5px 20px -10px rgba(0, 0, 0, 0.418);
 
       img {
         height: auto;
