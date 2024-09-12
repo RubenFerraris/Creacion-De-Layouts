@@ -76,6 +76,7 @@ body {
   width: 100% ;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   overflow-x: hidden;
+  background-image: url(../img/fondo.jpg);
 }
 
 header.index {
@@ -84,6 +85,7 @@ header.index {
   display: flex;
   justify-content: center;
   align-items: center;
+  
   .portada {
     display: flex;
     flex-direction: column;
@@ -344,9 +346,11 @@ header.restaurante {
 }
 
 @media screen and (orientation=landscape) {
+  body{
+
+  }
   main.index {
     padding: 20px;
-
     .offers {
       width: 100%;
       display: flex !important;
