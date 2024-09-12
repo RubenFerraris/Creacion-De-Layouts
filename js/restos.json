@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Ventolin",
+        "avatar": {
+            "src": "img/Ventolin.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "location": "Alivia rápidamente la dificultad para respirar.",
+      
+        "open": "09:00",
+        "close": "11:00",
+        "stars": 1,
+        "rating": 4.4,
+        "price": 3,
+        "distance": "1 bulan",
+        "menu": [
+            {
+                
+                "description": "1",
+                "price": "10:00"
+            },
+            {
+                
+                "description": "2",
+                "price": "16:00"
+            }
+        ]
+    },
+    {
+        "name": "Eutirox",
+        "avatar": {
+            "src": "img/Eutirox.png",
+            "alt": "",
+            "title": ""
+        },
+        "location": "Sustituye hormona tiroidea en el cuerpo.",
+      
+        "open": "∞",
+        "close": "∞",
+        "stars": 3,
+        "rating": 4.2,
+        "price": 1,
+        "distance": "4km",
+        "menu": [
+            {
+                
+                "description": "1",
+                "price": "10:00"
+            },
+            {
+                
+                "description": "2",
+                "price": "16:00"
+            }
+        ]
+    },
+    {
+        "name": "Adiro 100",
+        "avatar": {
+            "src": "img/Adiro100.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "location": "Previene coágulos y reduce riesgo cardiovascular.",
+      
+        "open": "00:00",
+        "close": "00:01",
+        "stars": 4,
+        "rating": 2.1,
+        "price": 2,
+        "distance": "3km",
+        "menu": [
+            {
+                
+                "description": "1",
+                "price": "10:00"
+            },
+            {
+                
+                "description": "2",
+                "price": "16:00"
+            }
+        ]
+    },
+    {
+        "name": "Paracetamol",
+        "avatar": {
+            "src": "img/paracetamol.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "location": "Alivia dolor y fiebre; no es antiinflamatorio.",
+    
+        "open": "12:00",
+        "close": "19:00",
+        "stars": 4,
+        "rating": 3.4,
+        "price": 3,
+        "distance": "3km",
+        "menu": [
+            {
+                
+                "description": "1",
+                "price": "10:00"
+            },
+            {
+                
+                "description": "2",
+                "price": "16:00"
+            }
+        ]
+    },
+    {
+        "name": "Nolotil",
+        "avatar": {
+            "src": "img/nolotil.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "location": "Alivia dolor intenso y fiebre alta.",
+        "open": "9:00",
+        "close": "11:00",
+        "stars": 4,
+        "rating": 1.4,
+        "price": 3,
+        "distance": "3km",
+        "menu":[
+            {
+                
+                "description": "1",
+                "price": "10:00"
+            },
+            {
+                
+                "description": "2",
+                "price": "16:00"
+            }
+        ]
+    }
+]
