@@ -1,6 +1,6 @@
 let body = document.getElementById("body");
 
-fetch('js/restos.json')
+fetch('js/pastillas.json')
     .then(response => {
         return response.json()
     })
