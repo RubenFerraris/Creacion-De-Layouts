@@ -54,7 +54,7 @@ fetch('js/pastillas.json')
 `}
     });
     })
-    fetch('js/restos.json')
+    fetch('js/pastillas.json')
     .then(response => {
         return response.json()
     })
