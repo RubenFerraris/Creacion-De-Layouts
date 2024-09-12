@@ -7,11 +7,6 @@
   text-decoration: none;
 }
 
-:root {
-  --verde: rgb(6, 218, 157);
-  --gris: rgb(128, 126, 126);
-}
-
 a {
   text-decoration: none;
 color: black;
@@ -45,7 +40,7 @@ color: black;
   width: 30rem;
   display: flex;
   padding: 1rem;
-  background-color: rgb(179, 136, 136);
+  background-color: rgb(38, 189, 248);
   border-radius: 2rem;
   margin: 1rem;
 }
@@ -76,7 +71,7 @@ body {
   width: 100% ;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   overflow-x: hidden;
-  background-image: url(../img/fondo.jpg);
+ 
 }
 
 header.index {
@@ -96,7 +91,7 @@ header.index {
     width: 70%;
     background-position: left;
     background-size: contain;
-    background-color: rgb(221, 167, 158);
+    background-color: rgb(38, 189, 248);
     background-repeat: no-repeat;
 
     & .saludo {
@@ -107,48 +102,9 @@ header.index {
     align-items: center;
     }
 
-    .buscador {
-      position: absolute;
-      bottom: -20px;
-      right: 5%;
-      left: 5%;
-      margin: auto;
-      height: 40px;
-      width: 80%;
-      background-color: rgb(255, 255, 255);
-      display: flex;
-      box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.6);
-      overflow: hidden;
-
-      & input[type="search"] {
-        width: calc(100% - 80px);
-        border: none;
-        outline: none;
-        padding: 10px;
-      }
-
-      & input[type="submit"] {
-        width: 40px;
-        border: none;
-        outline: none;
-        background-color: floralwhite;
-
-        transition: all 0.3s ease-in-out;
-      }
-
-      & input[type="submit"]:hover {
-        transform: scale(1.2);
-      }
-
-      & .icono {
-        width: 40px;
-        background-color: rgb(6, 218, 157);
-        display: grid;
-        place-items: center;
-      }
+  
     }
   }
-}
 
 main.index {
   width: 100%;
@@ -213,38 +169,7 @@ main.index {
       padding: 15px;
     }
 
-    & .calificacion {
-      position: absolute;
-      display: grid;
-      place-items: center;
-      height: 45px;
-      width: 45px;
-      background-color: rgb(6, 218, 157);
-      border-radius: 15px 0;
-      right: -15px;
-      top: -15px;
-      color: #ffffff;
-      font: 1.2em sans-serif;
-      box-shadow: 0px 30px 35px -10px rgba(0, 0, 0, 0.212);
-    }
-
-    & .stats {
-      margin-top: 30px;
-      width: 300px;
-      display: flex;
-      bottom: 0;
-
-      & .valor {
-        position: absolute;
-        right: 20px;
-      }
-
-      & .estrellas {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-    }
+  
   }
 
   & span.titulo {
@@ -345,10 +270,10 @@ header.restaurante {
   display: flex;
 }
 
-@media screen and (orientation=landscape) {
-  body{
-
-  }
+@media screen and (min-width: 720px) {
+  body.index{
+    background-image: url(../img/fondo.jpg);
+    }
   main.index {
     padding: 20px;
     .offers {
@@ -366,7 +291,8 @@ header.restaurante {
 
   
 }
-@media screen and (orientation=portrait) {
+@media screen and (min-width: 500px) {
+ 
   .horarios{
     display: flex;
     flex-direction: column;

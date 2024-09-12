@@ -71,7 +71,7 @@ fetch('js/restos.json')
                     </div>
                     <div class="desc">
                     
-                      <p>${el.description} Kapsul ${e.name} </p>
+                      <p>${el.description} ${e.type} ${e.name} </p>
                     </div></a></div>
                   `
                 })

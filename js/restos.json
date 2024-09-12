@@ -1,6 +1,7 @@
 [
     {
         "name": "Ventolin",
+        "type": "Capsule",
         "avatar": {
             "src": "img/Ventolin.jpg",
             "alt": "",
@@ -26,6 +27,7 @@
     },
     {
         "name": "Eutirox",
+        "type": "pill",
         "avatar": {
             "src": "img/Eutirox.png",
             "alt": "",
@@ -52,6 +54,7 @@
     },
     {
         "name": "Adiro 100",
+        "type": "pill",
         "avatar": {
             "src": "img/Adiro100.jpg",
             "alt": "",
@@ -77,6 +80,7 @@
     },
     {
         "name": "Paracetamol",
+        "type": "pill",
         "avatar": {
             "src": "img/paracetamol.jpg",
             "alt": "",
@@ -102,6 +106,7 @@
     },
     {
         "name": "Nolotil",
+        "type": "Capsule",
         "avatar": {
             "src": "img/nolotil.jpg",
             "alt": "",
