@@ -1,13 +1,13 @@
 let body = document.getElementById("resto");
 
-
-
 fetch('js/restos.json')
     .then(response => {
+    
         return response.json()
     })
     .then(data => {
         data.forEach(e => {
+        
             body.innerHTML +=
                 `<a id="${e.name}" class="restaurante">
         <article class="oferta">

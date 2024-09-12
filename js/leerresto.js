@@ -22,7 +22,7 @@ fetch('js/restos.json')
 <section class="informacion">
     <div><br>
         <h2>${e.name}</h2>
-        <p>${e.location} </p>
+        <p>${e.desc} </p>
     </div>
     <div class="valor">
    
@@ -67,7 +67,7 @@ fetch('js/restos.json')
                     `<a href="#" class="platillo">
                     <div class="horario">
                     <div class="img">
-                      <span class="titulo">HARI INI PUKUL ${el.price} </span>
+                      <span class="titulo">HARI INI PUKUL ${el.hour} </span>
                     </div>
                     <div class="desc">
                     

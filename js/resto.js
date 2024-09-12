@@ -4,7 +4,7 @@ setTimeout(() => {
         tarjeta.addEventListener('click', function () {
             const url = tarjeta.getAttribute('id');
             localStorage.setItem("titulo", url);
-            window.location.href = "restaurante.html";
+            window.location.href = "desc.html";
         });
     });
 }, 500);

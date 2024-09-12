@@ -6,21 +6,21 @@
             "alt": "",
             "title": ""
         },
-        "location": "Alivia rápidamente la dificultad para respirar.",
+        "desc": "Alivia rápidamente la dificultad para respirar.",
       
-        "open": "09:00",
+       
         "close": "11:00",
         "distance": "1 bulan",
         "menu": [
             {
                 
                 "description": "1",
-                "price": "10:00"
+                "hour": "10:00"
             },
             {
                 
                 "description": "2",
-                "price": "16:00"
+                "hour": "16:00"
             }
         ]
     },
@@ -31,9 +31,9 @@
             "alt": "",
             "title": ""
         },
-        "location": "Sustituye hormona tiroidea en el cuerpo.",
+        "desc": "Sustituye hormona tiroidea en el cuerpo.",
       
-        "open": "∞",
+       
         "close": "∞",
       
         "distance": "1 bulan",
@@ -41,12 +41,12 @@
             {
                 
                 "description": "1",
-                "price": "10:00"
+                "hour": "10:00"
             },
             {
                 
                 "description": "2",
-                "price": "16:00"
+                "hour": "16:00"
             }
         ]
     },
@@ -57,21 +57,21 @@
             "alt": "",
             "title": ""
         },
-        "location": "Previene coágulos y reduce riesgo cardiovascular.",
+        "desc": "Previene coágulos y reduce riesgo cardiovascular.",
       
-        "open": "00:00",
+      
         "close": "00:01",
         "distance": "1 bulan",
         "menu": [
             {
                 
                 "description": "1",
-                "price": "10:00"
+                "hour": "10:00"
             },
             {
                 
                 "description": "2",
-                "price": "16:00"
+                "hour": "16:00"
             }
         ]
     },
@@ -82,21 +82,21 @@
             "alt": "",
             "title": ""
         },
-        "location": "Alivia dolor y fiebre; no es antiinflamatorio.",
+        "desc": "Alivia dolor y fiebre; no es antiinflamatorio.",
     
-        "open": "12:00",
+    
         "close": "19:00",
         "distance": "1 bulan",
         "menu": [
             {
                 
                 "description": "1",
-                "price": "10:00"
+                "hour": "10:00"
             },
             {
                 
                 "description": "2",
-                "price": "16:00"
+                "hour": "16:00"
             }
         ]
     },
@@ -107,20 +107,20 @@
             "alt": "",
             "title": ""
         },
-        "location": "Alivia dolor intenso y fiebre alta.",
-        "open": "9:00",
+        "desc": "Alivia dolor intenso y fiebre alta.",
+     
         "close": "11:00",
         "distance": "1 bulan",
         "menu":[
             {
                 
                 "description": "1",
-                "price": "10:00"
+                "hour": "10:00"
             },
             {
                 
                 "description": "2",
-                "price": "16:00"
+                "hour": "16:00"
             }
         ]
     }

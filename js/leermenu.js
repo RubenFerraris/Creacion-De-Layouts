@@ -11,8 +11,7 @@ fetch('js/restos.json')
                     body.innerHTML += 
                     `<a href="comida.html" class="platillo">
                     <div class="img">
-                      <img src="img/nugget.jpg" />
-                      <span>$ ${el.price} </span>
+                      <span>$ ${el.hour} </span>
                     </div>
                     <div class="desc">
                       <h2>${el.name} </h2>
