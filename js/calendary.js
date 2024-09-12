@@ -2,12 +2,9 @@ let currentMonth = document.querySelector(".current-month");
 let calendarDays = document.querySelector(".calendar-days");
 let today = new Date();
 let date = new Date();
-
-
 currentMonth.textContent = date.toLocaleDateString("en-US", {month:'long', year:'numeric'});
 today.setHours(0,0,0,0);
 renderCalendar();
-
 function renderCalendar(){
     const prevLastDay = new Date(date.getFullYear(),date.getMonth(),0).getDate();
     const totalMonthDay = new Date(date.getFullYear(),date.getMonth()+1,0).getDate();
@@ -20,17 +17,16 @@ function renderCalendar(){
         let day = i-startWeekDay;
 
         if(i <= startWeekDay){
-            // adding previous month days
             calendarDays.innerHTML += `<div class='padding-day'>${prevLastDay-i}</div>`;
         }else if(i <= startWeekDay+totalMonthDay){
-            // adding this month days
+          
             date.setDate(day);
             date.setHours(0,0,0,0);
             
             let dayClass = date.getTime()===today.getTime() ? 'current-day' : 'month-day';
             calendarDays.innerHTML += `<div class='${dayClass}'>${day}</div>`;
         }else{
-            // adding next month days
+     
             calendarDays.innerHTML += `<div class='padding-day'>${day-totalMonthDay}</div>`;
         }
     }
@@ -60,3 +56,29 @@ document.querySelectorAll(".btn").forEach(function (element) {
 		renderCalendar();
 	});
 });
+let body = document.getElementById("resto");
+
+fetch('js/restos.json')
+    .then(response => {
+    
+        return response.json()
+    })
+    .then(data => {
+        data.forEach(e => {
+        
+            body.innerHTML +=
+                `<a id="${e.name}" class="restaurante">
+        <article class="oferta">
+            <div class="img">
+                <img src="${e.avatar.src}">
+                <span>${e.distance}</span>
+            </div>
+            <div class="desc">
+                <h2>${e.name}</h2>
+                <span>Hari ini pukul ${e.close}</span>
+                <div class="stats">
+                </div>
+            </div>
+        </article>
+    </a>`});
+    })
