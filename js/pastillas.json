@@ -2,6 +2,7 @@
     {
         "name": "Ventolin",
         "type": "Capsule",
+        "cant_mes": "20%",
         "avatar": {
             "src": "img/Ventolin.jpg",
             "alt": "",
@@ -28,6 +29,7 @@
     {
         "name": "Eutirox",
         "type": "pill",
+        "cant_mes": "30%",
         "avatar": {
             "src": "img/Eutirox.png",
             "alt": "",
@@ -44,6 +46,10 @@
                 
                 "description": "8",
                 "hour": "18:00"
+            },{
+                
+                "description": "10",
+                "hour": "01:00"
             },
             {
                 
@@ -55,6 +61,7 @@
     {
         "name": "Adiro 100",
         "type": "pill",
+        "cant_mes": "10%",
         "avatar": {
             "src": "img/Adiro100.jpg",
             "alt": "",
@@ -66,11 +73,7 @@
         "close": "00:01",
         "distance": "4 bulan",
         "menu": [
-            {
-                
-                "description": "10",
-                "hour": "00:00"
-            },
+           
             {
                 
                 "description": "4",
@@ -81,6 +84,7 @@
     {
         "name": "Paracetamol",
         "type": "pill",
+        "cant_mes": "30%",
         "avatar": {
             "src": "img/paracetamol.jpg",
             "alt": "",
@@ -107,6 +111,7 @@
     {
         "name": "Nolotil",
         "type": "Capsule",
+        "cant_mes": "30%",
         "avatar": {
             "src": "img/nolotil.jpg",
             "alt": "",
@@ -129,4 +134,30 @@
             }
         ]
     }
+,{
+    "name": "fentanilo",
+    "type": "Capsule",
+    "cant_mes": "50%",
+    "avatar": {
+        "src": "img/nolotil.jpg",
+        "alt": "",
+        "title": ""
+    },
+    "desc": "Alivia dolor intenso y fiebre alta.",
+ 
+    "close": "11:00",
+    "distance": "1 bulan",
+    "menu":[
+        {
+            
+            "description": "10",
+            "hour": "10:00"
+        },
+        {
+            
+            "description": "8",
+            "hour": "14:30"
+        }
+    ]
+}
 ]
