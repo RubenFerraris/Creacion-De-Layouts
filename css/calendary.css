@@ -130,4 +130,5 @@ body {
   font-size: 0.9rem;
   margin-right: 1px;
   box-shadow: 0px 0px 0px #efefef;
+  cursor: pointer;
 }
