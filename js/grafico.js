@@ -8,7 +8,7 @@ fetch('js/pastillas.json')
         data.forEach(e => {
         
             body.innerHTML +=
-                `<div class="bar" style="--bar-value:${e.cant_mes}; content: '0%';" data-name="${e.name}" title="${e.name}">${e.cant_mes}</div>`});
+                `<div class="bar" style="--bar-value:${e.cant_mes}; content: '${e.cant_mes}';" data-name="${e.name} (${e.cant_mes})" title="${e.name}"></div>`});
     })
 
                     

@@ -16,6 +16,7 @@ nav {
       color: gray;
       text-transform: uppercase;
       font-weight: 600;
+      border-radius: 1rem;
     }
     a:hover,
     a.actual {
